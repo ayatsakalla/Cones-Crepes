@@ -1,0 +1,24 @@
+/* body styling */
+html {
+    background: #171717;
+}
+
+/* fonts start */
+@font-face {
+    font-family: 'Granny';
+    src: url('fonts/GrannyRegular-ALYgg.ttf');
+}
+
+.granny {
+    font-family: 'Granny';
+}
+
+@font-face {
+    font-family: 'guarantee';
+    src: url('fonts/Guarantee-qZOGr.otf');
+}
+
+.guarantee {
+    font-family: 'guarantee';
+}
+/* fonts end */

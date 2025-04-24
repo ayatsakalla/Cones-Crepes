@@ -199,19 +199,17 @@ html, .container-fluid {
 }
 
 .circle-btn {
-    width: 100%;
-    height: 0;
-    padding-bottom: 100%;
-    /* This makes it responsive */
+    width: 200px;
+    height: 200px;
     background-color: transparent;
     border-radius: 50%;
     border: 2px solid #F84AA0;
-    /* Border color */
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: transform 0.3s ease;
+    margin: 0 1rem;
 }
 
 .circle-btn:hover {
@@ -219,19 +217,17 @@ html, .container-fluid {
 }
 
 .circle-btn-img {
-    width: 70%;
-    height: 70%;
-    object-fit: contain;
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+ }
     /* Ensures the image maintains aspect ratio */
-}
 
 /* Add responsive media queries for smaller screens */
 @media (max-width: 767px) {
     .circle-btn {
-        width: 80px;
-        /* Adjust the size for small screens */
-        height: 80px;
-        padding-bottom: 80px;
-    }
+            width: 70px;
+            height: 70px;
+        }
 }
 /* delivery 3 buttons end */

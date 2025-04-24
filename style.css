@@ -1,6 +1,7 @@
 /* body styling */
 html, .container-fluid {
     background: #171717;
+    overflow-x: hidden;
 }
 
 /* fonts start */

@@ -1,8 +1,94 @@
 [
     {
-        "title": "",
-        "image": "",
-        "description": "",
-        "price": ""
+        "flavor": "Vanilla",
+        "image": "images/icecream/img.png"
+    },
+     {
+        "flavor": "Chocolate",
+        "image": "images/icecream/img.png"
+    },
+     {
+        "flavor": "Strawberry",
+        "image": "images/icecream/img.png"
+    },
+     {
+        "flavor": "Cookie Dough",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Cookie Monster",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Cherry",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Strawberry Shortcake",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Cookies & Cream",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Birthday Cake",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Mint Chocolate Chip",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Banana",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Sweet & Salted Caramel",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Chocolate Chip",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Cotton Candy",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Black Raspberry",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Orange",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Coconut",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Pistachio",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Butter Pecan",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Chaco Taco",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Zero Sugar Vanilla",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Zero Sugar Moose Tracks",
+        "image": "images/icecream/img.png"
+    },
+    {
+        "flavor": "Lemon Sorbet",
+        "image": "images/icecream/img.png"
     }
 ]

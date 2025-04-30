@@ -36,11 +36,52 @@
         "price": "$10.99"
     },
     {
-        // finish this section i didnt put proper description
         "title": "Oreo",
         "image": "images/crepes/img.png",
         "description": "Nutella drizzle with crushed oreo pieces", 
         "price": "$9.49"
     },
+    {
+        "title": "Reese's",
+        "image": "images/crepes/img.png",
+        "description": "Nutella chocolate served with Reeses pieces, & powdered sugar", 
+        "price": "$9.49"
+    },
+    {
+        "title": "Pistachio",
+        "image": "images/crepes/img.png",
+        "description": "Pistachio sauce served with bananas topped with crushed pistachios", 
+        "price": "$11.49"
+    },
+    {
+        "title": "Dubai Crepe",
+        "image": "images/crepes/img.png",
+        "description": "Stuffed with kunafa filo, topped with pistachio butter, milk chocolate, & crushed pistachio", 
+        "price": "$13.99"
+    },
+    {
+        "title": "Smore's",
+        "image": "images/crepes/img.png",
+        "description": "Nutella served with graham crackers, mini marshmallows, & chocolate chips", 
+        "price": "$10.99"
+    },
+    {
+        "title": "Kinder",
+        "image": "images/crepes/img.png",
+        "description": "2 Kinder bueno chocolate bars & 2 kinder sticks topped with a Nutella drizzle", 
+        "price": "$13.99"
+    },
+    {
+        "title": "Combo",
+        "image": "images/crepes/img.png",
+        "description": "Nutella served with two scoops of ice cream, 2 toppings of your choice with whipped cream, & powdered sugar", 
+        "price": "$13.49"
+    },
+    {
+        "title": "The Gold Crepe",
+        "image": "images/crepes/img.png",
+        "description": "24k gold served with Nutella, strawberries, bananas, 3 ferrero rocher & a scoop of ice cream", 
+        "price": "$33.99"
+    }
     
 ]

@@ -1,8 +1,74 @@
 [
     {
-        "title": "",
-        "image": "",
-        "description": "",
-        "price": ""
+        "title": "Cones & Crepes Family Special",
+        "image": "images/specials/img.png",
+        "description": "1 Nutella crepe & 1 Nutella waffle with 2 flipped ice cream cones, 2 toppings, whipped cream, & powdered sugar",
+        "price": "$19.99"
+    },
+    {
+        "title": "Sundae",
+        "image": "images/specials/img.png",
+        "description": "Soft serve ice cream cup with syrup & 2 toppings of YOUR choice, topped with whipped cream",
+        "price": "$5.99"
+    },
+    {
+        "title": "Banana Split",
+        "image": "images/specials/img.png",
+        "description": "Split banana with 3 scoops of ice cream, sprinkles, whipped cream, & a cherry on top",
+        "price": "$6.99"
+    },
+    {
+        "title": "Jersey Worthy",
+        "image": "images/specials/img.png",
+        "description": "Sugar cone with 2 scoops of ice cream, dipped in warm chocolate, with 3 toppings of your choice",
+        "price": "$6.99"
+    },
+    {
+        "title": "Lava Cake",
+        "image": "images/specials/img.png",
+        "description": "Lava cake topped with chocolate drizzle, a scoop of vanilla ice cream, & powdered sugar",
+        "price": "$8.99"
+    },
+    {
+        "title": "Dubai Chocolate Bar",
+        "image": "images/specials/img.png",
+        "description": "Milk chocolate bar stuffed with crunchy phyllo dough & pistachio butter",
+        "price": "$8.00/2 for $15.00"
+    },
+    {
+        "title": "Dubai Strawberry Chocolate Cup",
+        "image": "images/specials/img.png",
+        "description": "Fresh strawberries with milk chocolate, crunchy phyllo dough, & pistachio butter",
+        "price": "$14.99"
+    },
+    {
+        "title": "Strawberry Chocolate Cup",
+        "image": "images/specials/img.png",
+        "description": "Fresh strawberries with milk chocolate",
+        "price": "$9.99"
+    },
+    {
+        "title": "Affogato",
+        "image": "images/specials/img.png",
+        "description": "Hot espresso poured over a scoop of vanilla ice cream - Add Biscoff or Pistachio +$1.00",
+        "price": "$5.99"
+    },
+    {
+        "title": "Latte",
+        "image": "images/specials/img.png",
+        "description": "Caramel or Vanilla flavor",
+        "price": "$4.75"
+    },
+    {
+        "title": "Coffee",
+        "image": "images/specials/img.png",
+        "description": "Brewed to perfection, our signature roast delivers bold flavor and warmth in every cup",
+        "price": "$1.99"
+    },
+    {
+        "title": "Tea",
+        "image": "images/specials/img.png",
+        "description": "A soothing blend of premium black tea leaves, steeped to perfection",
+        "price": "$1.99"
     }
 ]

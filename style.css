@@ -253,3 +253,19 @@ html, .container-fluid {
     letter-spacing: 5px;
 }
 /* menu hero end */
+
+/* instagram widget start */
+.es-header-user-full-name {
+    font-family: 'Granny';
+}
+
+.es-header-user-username,
+.eapps-instagram-feed-header-stats-item-value, .eapps-instagram-feed-header-stats-item-label {
+    font-family: 'guarantee';
+}
+
+.eapps-instagram-feed-header-follow-button, .es-header-follow-button {
+    font-family: 'guarantee';
+}
+
+/* instagram end */

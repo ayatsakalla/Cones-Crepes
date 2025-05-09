@@ -1,94 +1,86 @@
 [
     {
         "flavor": "Vanilla",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/vanilla.png"
     },
      {
         "flavor": "Chocolate",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/chocolate.png"
     },
      {
         "flavor": "Strawberry",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/strawberry.png"
     },
      {
         "flavor": "Cookie Dough",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/cookiedough.png"
     },
     {
         "flavor": "Cookie Monster",
-        "image": "images/icecream/img.png"
-    },
-    {
-        "flavor": "Cherry",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/cookiemonster.png"
     },
     {
         "flavor": "Strawberry Shortcake",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/strawberryshortcake.png"
     },
     {
         "flavor": "Cookies & Cream",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/cookiesandcream.png"
     },
     {
         "flavor": "Birthday Cake",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/birthdaycake.png"
     },
     {
         "flavor": "Mint Chocolate Chip",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/mintchocochip.png"
     },
     {
         "flavor": "Banana",
-        "image": "images/icecream/img.png"
-    },
-    {
-        "flavor": "Sweet & Salted Caramel",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/banana.png"
     },
     {
         "flavor": "Chocolate Chip",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/chocochip.png"
     },
     {
         "flavor": "Cotton Candy",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/cottoncandy.png"
     },
     {
         "flavor": "Black Raspberry",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/blackraspberry.png"
     },
     {
-        "flavor": "Orange",
-        "image": "images/icecream/img.png"
+        "flavor": "Orange Sherbet",
+        "image": "images/icecream/orangesherbet.png"
     },
     {
         "flavor": "Coconut",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/coconut.png"
     },
     {
         "flavor": "Pistachio",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/pistachio.png"
     },
     {
         "flavor": "Butter Pecan",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/butterpecan.png"
     },
     {
-        "flavor": "Chaco Taco",
-        "image": "images/icecream/img.png"
+        "flavor": "Sweet & Salty Caramel Pretzel",
+        "image": "images/icecream/sweetsaltycaramelpretzel.png"
     },
     {
-        "flavor": "Zero Sugar Vanilla",
-        "image": "images/icecream/img.png"
+        "flavor": "Choco Taco",
+        "image": "images/icecream/chocotaco.png"
     },
     {
-        "flavor": "Zero Sugar Moose Tracks",
-        "image": "images/icecream/img.png"
+        "flavor": "Moose Tracks",
+        "image": "images/icecream/moosetrack.png"
     },
     {
         "flavor": "Lemon Sorbet",
-        "image": "images/icecream/img.png"
+        "image": "images/icecream/lemonsorbet.png"
     }
 ]

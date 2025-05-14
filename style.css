@@ -278,6 +278,53 @@ html, .container-fluid {
 
 /* menu navbar start */
 .menu-nav-btn {
-    
+    background-color: #000;
+    border: 2px solid #F84AA0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+    transition: transform 0.3s;
+    margin: 0 auto;
+}
+
+.menu-nav-btn:hover {
+    transform: scale(1.05);
+}
+
+.menu-nav-btn img {
+    max-width: 50%;
+    height: auto;
+}
+
+.menu-nav-btn h4 {
+    font-size: 0.75rem;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .menu-nav-btn {
+        width: 70px;
+        height: 70px;
+    }
+
+    .menu-nav-btn h4 {
+        font-size: 0.5rem;
+    }
+}
+
+.menu-a {
+    text-decoration: none;
+    color: inherit;
 }
 /* menu navbar end */

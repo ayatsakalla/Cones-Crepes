@@ -277,40 +277,7 @@ html, .container-fluid {
 /* footer end */
 
 /* menu navbar start */
-@media (max-width: 639px) {
-    body.menu .menu-section nav#menu-filter-nav {
-        margin-left: -20px;
-        margin-right: -20px;
-    }
-}
-
-@media (max-width: 1023px) {
-    body.menu .menu-section nav#menu-filter-nav {
-        top: 60px;
-        margin-left: -40px;
-        margin-right: -40px;
-    }
-}
-
-body.menu .menu-section nav#menu-filter-nav {
-    display: -webkit-flex;
-    display: flex;
-    white-space: nowrap;
-    margin: -100px auto 60px;
-    position: sticky;
-    top: 80px;
-    z-index: 3;
-    background-color: white;
-    overflow: auto;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-body.menu .menu-section nav#menu-filter-nav a.menu-category-tab.active {
-    background-color: #73deda;
-    color: white;
-}
-
-body.menu .menu-section nav#menu-filter-nav a.menu-category-tab:not(:last-child) {
-    border-right: 1px solid #e8e8e8;
+.menu-nav-btn {
+    
 }
 /* menu navbar end */

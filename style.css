@@ -281,8 +281,8 @@ html, .container-fluid {
     background-color: #000;
     border: 2px solid #F84AA0;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -304,7 +304,7 @@ html, .container-fluid {
 }
 
 .menu-nav-btn h4 {
-    font-size: 0.75rem;
+    font-size: 0.90rem;
     margin-top: 5px;
     color: white;
     text-align: center;
@@ -314,8 +314,8 @@ html, .container-fluid {
 
 @media (max-width: 768px) {
     .menu-nav-btn {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
     }
 
     .menu-nav-btn h4 {

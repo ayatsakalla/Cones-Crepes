@@ -328,3 +328,11 @@ html, .container-fluid {
     color: inherit;
 }
 /* menu navbar end */
+
+/* menu start */
+.menu-div {
+    border-radius: 33px;
+    border: 2px solid #F84AA0;
+    background-color: #171717;
+}
+/* menu end */

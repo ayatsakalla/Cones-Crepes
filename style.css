@@ -131,7 +131,7 @@ html, .container-fluid {
 .hero-overlay h1 {
     font-size: 5rem;
     margin-bottom: 1rem;
-    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-width: 1.2px;
     -webkit-text-stroke-color: #F84AA0;
 }
 

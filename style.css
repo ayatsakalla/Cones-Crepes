@@ -269,6 +269,15 @@ html, .container-fluid {
 .foot {
     background-color: #000;
 }
+
+.foot-btn {
+    color: white;
+    text-decoration: none;
+}
+
+.foot-btn:hover {
+    color: #F84AA0;
+}
 /* footer end */
 
 /* menu navbar start */

@@ -152,44 +152,39 @@ html, .container-fluid {
 /* hero end */
 
 /* top favorites carousel start */
-.cc-card-track {
-    width: 960px;
-    display: flex;
-    transition: transform 0.4s ease;
+.carousel-card {
+    min-width: 33.33%;
+    /* 3 cards per view */
+    box-sizing: border-box;
+    padding: 0 10px;
 }
 
-.cc-card {
-    width: 300px;
-    height: 200px;
-    background-color: #fff;
+.card-content {
+    background-color: #171717;
+    color: white;
+    border: 2px solid #F84AA0;
     border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.4s ease, opacity 0.4s ease;
-    transform: scale(0.9);
-    opacity: 0.6;
+    padding: 16px;
+    height: 100%;
+    text-align: center;
 }
 
-.cc-card.cc-middle {
-    transform: scale(1);
-    opacity: 1;
+#carousel-track {
+    transition: transform 0.5s ease;
 }
 
-.cc-slide-enter-active,
-.cc-slide-leave-active {
-    transition: all 0.4s ease;
+.carousel-btn {
+    background-color: #000;
+    border: 2px solid #000;
+    color: white
 }
 
-.cc-slide-enter-from,
-.cc-slide-leave-to {
-    transform: translateX(100%);
-    opacity: 0;
+.carousel-btn:hover {
+    background-color: #F84AA0;
+    border: 2px solid #F84AA0;
+    color:white;
 }
 
-.cc-slide-leave-from,
-.cc-slide-enter-to {
-    transform: translateX(0);
-    opacity: 1;
-}
 /* top favorites carousel end */
 
 /* delivery 3 buttons start */

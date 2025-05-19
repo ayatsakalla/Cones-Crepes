@@ -1,33 +1,38 @@
-import { ref, computed } from 'vue'
 
-const cards = ref([
-    { id: 1, title: "Le Mexicain", type: "Breakfast Crêpe" },
-    { id: 2, title: "Allison's Parfait", type: "Breakfast Crêpe" },
-    { id: 3, title: "Cookie Butter", type: "Sweet Crêpe" },
-    { id: 4, title: "Crêpe Suzette", type: "Classic Crêpe" },
-    { id: 5, title: "Nutella Heaven", type: "Sweet Crêpe" },
-    { id: 6, title: "Savory Delight", type: "Lunch Crêpe" },
-])
+let currentIndex = 0;
+let totalCards = 0;
 
-const currentIndex = ref(0)
+$.getJSON('json files/favorites.json', function (data) {
+    const track = $('#carousel-track');
+    track.empty();
 
-const visibleCards = computed(() => {
-    let result = []
-    for (let i = 0; i < 3; i++) {
-        result.push(cards.value[(currentIndex.value + i) % cards.value.length])
+    data.forEach(item => {
+        const card = `
+    <div class="carousel-card">
+        <div class="card-content">
+            <h5 class="text-white granny">${item.title}</h5>
+            <p class="text-white guarantee" style="font-size: 12px;">${item.description}</p>
+            <img src="${item.image}" class="img-fluid rounded mb-2" alt="${item.title}">
+        </div>
+    </div>
+    `;
+        track.append(card);
+    });
+
+    totalCards = data.length;
+});
+
+$('#carousel-right').on('click', function () {
+    if (currentIndex < totalCards - 3) {
+        currentIndex++;
+        $('#carousel-track').css('transform', `translateX(-${currentIndex * (100 / 3)}%)`);
     }
-    return result
-})
+});
 
-function slide(direction) {
-    const slideDistance = 300;  // Each card width
-    const cardTrack = document.querySelector('.cc-card-track');
-
-    if (direction === 'right') {
-        currentIndex.value = (currentIndex.value + 1) % cards.value.length;
-        cardTrack.style.transform = `translateX(-${(currentIndex.value) * slideDistance}px)`;
-    } else {
-        currentIndex.value = (currentIndex.value - 1 + cards.value.length) % cards.value.length;
-        cardTrack.style.transform = `translateX(-${(currentIndex.value) * slideDistance}px)`;
+$('#carousel-left').on('click', function () {
+    if (currentIndex > 0) {
+        currentIndex--;
+        $('#carousel-track').css('transform', `translateX(-${currentIndex * (100 / 3)}%)`);
     }
-}
+});
+

@@ -81,19 +81,20 @@
         <h1 class="granny text-center text-white m-2 p-2">Top Picks</h1>
         <h5 class="guarantee text-center text-white">Can’t decide? Check out some of our most popular items!</h5>
         <!-- carousel top favorites start -->
-        <div class="cc-carousel d-flex align-items-center justify-content-center">
-            <button @click="slide('left')" class="btn btn-outline-primary mx-2">←</button>
-            <div class="cc-card-track d-flex overflow-hidden">
-                <transition-group name="cc-slide" tag="div" class="d-flex gap-3">
-                    <div v-for="(card, i) in visibleCards" :key="card.id" class="cc-card text-center p-3"
-                        :class="{ 'cc-middle': i === 1 }">
-                        <h5>{{ card.title }}</h5>
-                        <p class="text-muted">{{ card.type }}</p>
+        <div class="container my-4">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <div class="carousel-wrapper overflow-hidden">
+                        <div id="carousel-track" class="d-flex"></div>
                     </div>
-                </transition-group>
+                    <div class="d-flex justify-content-center mt-3 gap-3">
+                        <button id="carousel-left" class="btn px-4 carousel-btn">‹</button>
+                        <button id="carousel-right" class="btn px-4 carousel-btn">›</button>
+                    </div>
+                </div>
             </div>
-            <button @click="slide('right')" class="btn btn-outline-primary mx-2">→</button>
         </div>
+
         <!-- carousel top favorites end -->
 
         <div class="row d-flex justify-content-center align-items-center my-3" id="dev">
@@ -150,6 +151,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- top favorites js -->
     <script src="script.js"></script>

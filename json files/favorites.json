@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Nutella, Strawberry & Banana",
+        "description": "Crepes & Waffles",
+        "image": "images/crepes/card1.jpg"
+    },
+    {
+        "title": "Dubai Chocolate Bar",
+        "description": "Specials",
+        "image": "images/specials/card2.jpg"
+    },
+    {
+        "title": "Nutella",
+        "description": "Crepes & Waffles",
+        "image": "images/crepes/card3.jpg"
+    },
+    {
+        "title": "Dubai Strawberry Cup",
+        "description": "Specials",
+        "image": "images/specials/card4.jpg"
+    },
+    {
+        "title": "Ferrero Rocher",
+        "description": "Crepes & Waffles",
+        "image": "images/crepes/card4.jpg"
+    },
+    {
+        "title": "Nutella & Banana",
+        "description": "Crepes",
+        "image": "images/crepes/card4.jpg"
+    },
+    {
+        "title": "Strawberry Stick",
+        "description": "Chocolate Dips",
+        "image": "images/chocolatedips/card4.jpg"
+    },
+    {
+        "title": "Dubai Crepe",
+        "description": "Crepes & Waffles",
+        "image": "images/crepes/card4.jpg"
+    },
+    {
+        "title": "Lotus",
+        "description": "Crepes & Waffles",
+        "image": "images/crepes/card4.jpg"
+    },
+    {
+        "title": "Ferrero Shake",
+        "description": "Milkshakes",
+        "image": "images/milkshakes/card4.jpg"
+    },
+    {
+        "title": "Combo",
+        "description": "Crepes & Waffles",
+        "image": "images/crepes/card4.jpg"
+    }
+]

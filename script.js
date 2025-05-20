@@ -17,8 +17,8 @@ $.getJSON('json files/favorites.json', function (data) {
         const card = `
             <div class="carousel-card">
                 <div class="card-content">
-                    <h5 class="granny">${item.title}</h5>
-                    <p class="guarantee">${item.description}</p>
+                    <h4 class="granny">${item.title}</h4>
+                    <p class="guarantee" style="font-size: 12px;">${item.description}</p>
                     <img src="${item.image}" class="img-fluid rounded mb-2" alt="${item.title}">
                 </div>
             </div>

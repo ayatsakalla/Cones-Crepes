@@ -16,6 +16,8 @@
 
     <!-- personal css -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- favicon -->
     <link rel="shortcut icon" href="images/menu-icons/crepe.png" type="image/x-icon">
 
 </head>
@@ -29,34 +31,46 @@
         <nav class="navbar navbar-expand-lg px-3">
 
             <div class="navbar-left">
+                <!-- home btn -->
                 <a class="nav-link guarantee" href="index.html">HOME</a>
+
+                <!-- menu btn -->
                 <a class="nav-link guarantee" href="menu.html">MENU</a>
             </div>
 
-
+            <!-- logo -->
             <div class="navbar-center">
                 <img src="logo.png" alt="Logo" class="img-fluid">
             </div>
 
-
+            <!-- delivery btn -->
             <div>
                 <a href="#dev">
                     <button class="btn btn-primary guarantee" id="delivery">DELIVERY</button>
                 </a>
-
             </div>
+
         </nav>
         <!-- navbar end -->
     </header>
 
+    <!-- menu hero start -->
     <div class="container-fluid p-0 position-relative">
+        <!-- img -->
         <img src="https://picsum.photos/300/70" alt="" class="img-fluid menu-img">
+
+        <!-- menu text -->
         <div class="menu-text guarantee">MENU</div>
     </div>
+    <!-- menu hero end -->
 
+    <!-- menu content start -->
     <div class="container-fluid p-0 position-relative">
+
+        <!-- menu bts start -->
         <div class="row d-flex justify-content-center text-center g-3 mt-3 p-3">
 
+            <!-- crepes and waffles start btn -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                 <button class="menu-nav-btn" data-target="#crepeswaffles">
                     <div class="d-flex justify-content-center">
@@ -66,55 +80,75 @@
                     <h4 class="guarantee">Crepes & Waffles</h4>
                 </button>
             </div>
+            <!-- crepes and waffles btn end -->
 
+            <!-- chocolate dips btn start -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                 <button class="menu-nav-btn" data-target="#chocolatedips">
                     <img src="images/menu-icons/chocolate-bar.png" class="img-fluid">
                     <h4 class="guarantee">Chocolate Dips</h4>
                 </button>
             </div>
+            <!-- chocolate dips btn end -->
 
+            <!-- milkshakes btn start -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                 <button class="menu-nav-btn" data-target="#milkshakes">
                     <img src="images/menu-icons/milkshake.png" class="img-fluid">
                     <h4 class="guarantee">Milkshakes</h4>
                 </button>
             </div>
+            <!-- milkshakes btn end -->
 
+            <!-- ice cream btn start -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                 <button class="menu-nav-btn" data-target="#icecream">
                     <img src="images/menu-icons/ice-cream.png" class="img-fluid">
                     <h4 class="guarantee">Ice Cream</h4>
                 </button>
             </div>
+            <!-- ice cream btn end -->
 
+            <!-- specials btn start -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                 <button class="menu-nav-btn" data-target="#specials">
                     <img src="images/menu-icons/specials.png" class="img-fluid">
                     <h4 class="guarantee">Specials</h4>
                 </button>
             </div>
+            <!-- specials btn end -->
 
+            <!-- mojitos btn start -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                 <button class="menu-nav-btn" data-target="#mojitos">
                     <img src="images/menu-icons/mojito.png" class="img-fluid">
                     <h4 class="guarantee">Mojitos</h4>
                 </button>
             </div>
+            <!-- mojitos btn end -->
 
         </div>
+        <!-- menu btns end -->
 
-
+        <!-- crepes and waffles start -->
         <div id="crepeswaffles" class="menu-selection">
+            <!-- title  -->
             <h1 class="text-center text-white granny">Crepes and Waffles</h1>
+
+            <!-- subtitle  -->
             <h5 class="text-center text-white guarantee">Choose from our menu or create your own Crepe or Waffle!</h5>
+
+            <!-- holds menu content -->
             <div class="container">
+                <!-- json file targets here -->
                 <div class="row" id="crepe-items">
 
                 </div>
             </div>
         </div>
+        <!-- crepes and waffles end -->
 
+        <!-- chocolate dips start -->
         <div id="chocolatedips" class="menu-selection">
             <h1 class="text-center text-white granny">Chocolate Dips</h1>
             <h5 class="text-center text-white guarantee">Enjoy your choice of fruit or other treats drenched underneath
@@ -125,7 +159,9 @@
                 </div>
             </div>
         </div>
+        <!-- chocolate dips end -->
 
+        <!-- milkshakes start -->
         <div id="milkshakes" class="menu-selection">
             <h1 class="text-center text-white granny">Milkshakes</h1>
             <h5 class="text-center text-white guarantee">Topped with whipped cream</h5>
@@ -135,11 +171,27 @@
                 </div>
             </div>
         </div>
+        <!-- milkshakes end -->
 
+        <!-- ice cream start -->
         <div id="icecream" class="menu-selection">
             <h1 class="text-center text-white granny">Ice Cream</h1>
-        </div>
 
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="text-white text-center granny">Ice Cream Scoops</h3>
+                    <h5 class="text-white text-center guarantee">Cone or Cup</h5>
+                </div>
+                <div class="col-6">
+                    <h3 class="text-white text-center granny">Soft Serve</h3>
+                    <h5 class="text-white text-center guarantee">Vanilla, Chocolate, Swirl <br> Cone or Cup</h5>
+                </div>
+
+            </div>
+        </div>
+        <!-- ice cream end -->
+
+        <!-- specials start -->
         <div id="specials" class="menu-selection">
             <h1 class="text-center text-white granny">Specials</h1>
             <h5 class="text-center text-white guarantee">Choose Red Bull or Sprite - $6.49</h5>
@@ -149,7 +201,9 @@
                 </div>
             </div>
         </div>
+        <!-- specials end -->
 
+        <!-- mojitos start -->
         <div id="mojitos" class="menu-selection">
             <h1 class="text-center text-white granny">Mojitos</h1>
             <h5 class="text-center text-white guarantee">Choose Red Bull or Sprite - $6.49</h5>
@@ -159,9 +213,11 @@
                 </div>
             </div>
         </div>
+        <!-- mojitos end -->
 
 
     </div>
+    <!-- menu content end -->
 
 
 

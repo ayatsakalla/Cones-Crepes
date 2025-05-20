@@ -349,3 +349,9 @@ html, .container-fluid {
     background-color: #171717;
 }
 /* menu end */
+
+/* ice cream start */
+.carousel-card.ice-cream {
+    min-width: calc(100% / 3);
+}
+/* ice cream end */

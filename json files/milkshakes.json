@@ -1,79 +1,79 @@
 [
     {
         "title": "Vanilla Cream",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/vanilla.avif",
         "description": "Vanilla ice cream with vanilla drizzle",
         "price": "$7.49"
     },
     {
         "title": "Classic Chocolate",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/chocolate.avif",
         "description": "Chocolate ice cream with chocolate drizzle",
         "price": "$7.49"
     },
     {
         "title": "Strawberry Dreams",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/strawberryshake.avif",
         "description": "Fresh strawberries & vanilla ice cream with chocolate drizzle",
         "price": "$8.99"
     },
     {
         "title": "Banana Bonanza",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/bananashake.avif",
         "description": "Fresh banana & vanilla ice cream with chocolate drizzle",
         "price": "$8.99"
     },
     {
         "title": "Straw-nana",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/strawberry-banana.avif",
         "description": "Fresh strawberries & bananas with vanilla ice cream and chocolate drizzle",
         "price": "$9.49"
     },
     {
         "title": "Reese's Rush",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/reesesshake.avif",
         "description": "Reese's cups & peanut butter with chocolate ice cream & chocolate drizzle",
         "price": "$8.99"
     },
     {
         "title": "Biscoff Bliss",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/lotusshake.avif",
         "description": "Lotus cookies & cookie butter with vanilla ice cream and caramel drizzle",
         "price": "$9.99"
     },
     {
         "title": "M&M Madness",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/mnm.avif",
         "description": "M&M's & vanilla ice cream with chocolate drizzle",
         "price": "$8.50"
     },
     {
         "title": "Ferrero Fantasty",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/ferrero.avif",
         "description": "Ferrero rocher, & Nutella with twist ice cream, & Nutella drizzle",
         "price": "$8.99"
     },
     {
         "title": "Oreo Overload",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/oreoshake.avif",
         "description": "Oreo cookies & vanilla ice cream with chocolate drizzle",
         "price": "$8.50"
     },
     {
         "title": "Kinder Krave",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/kindershake.avif",
         "description": "Kinder bueno & twist ice cream with chocolate drizzle",
         "price": "$8.99"
     },
     {
         "title": "Chill Brew",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/chillbrew.avif",
         "description": "Single shot of espresso with vanilla ice cream",
         "price": "$8.99"
     },
     {
         "title": "Fruity Blast",
-        "image": "images/milkshakes/img.png",
+        "image": "images/milkshakes/fruitypebbles.avif",
         "description": "Fruity pebbles cereal & vanilla ice cream with strawberry drizzle",
         "price": "$8.99"
     }

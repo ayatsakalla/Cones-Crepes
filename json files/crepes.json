@@ -1,85 +1,85 @@
 [
     {
         "title": "Nutella",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/nutella.avif",
         "description": "Nutella drizle & powdered sugar",
         "price": "$8.49"
     },
     {
         "title": "Nutella & Strawberry",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/nutella-strawberry.avif",
         "description": "Nutella drizzle, sliced fresh strawberries & powdered sugar",
         "price": "$9.49"
     },
     {
         "title": "Nutella & Banana",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/nutella-banana.avif",
         "description": "Nutella drizzle, sliced fresh bananas & powdered sugar",
         "price": "$9.49"
     },
     {
         "title": "Nutella, Strawberry & Banana",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/nutella-strawberry-banana.avif",
         "description": "Nutella drizzle, sliced strawberries, sliced bananas & powdered sugar",
         "price": "$9.99"
     },
     {
         "title": "Lotus",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/lotus.avif",
         "description": "Lotus buttercream served with caramel sauce, crushed lotus cookies & powdered sugar",
         "price": "$9.49"
     },
     {
         "title": "Ferrero Rocher",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/ferrero-rocher.avif",
         "description": "Nutella chocolate and 3 Ferrero Rochers with strawberries and powdered sugar",
         "price": "$10.99"
     },
     {
         "title": "Oreo",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/oreo.avif",
         "description": "Nutella served with crushed oreos & powdered sugar", 
         "price": "$9.49"
     },
     {
         "title": "Reese's",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/reeses.avif",
         "description": "Nutella chocolate served with Reeses pieces, & powdered sugar", 
         "price": "$9.49"
     },
     {
         "title": "Pistachio",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/pistachio.avif",
         "description": "Pistachio sauce served with bananas topped with crushed pistachios", 
         "price": "$11.49"
     },
     {
         "title": "Dubai Crepe",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/dubai.avif",
         "description": "Stuffed with kunafa filo, topped with pistachio butter, milk chocolate, & crushed pistachio", 
         "price": "$13.99"
     },
     {
         "title": "S'mores",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/smores.avif",
         "description": "Nutella served with graham crackers, mini marshmallows, & chocolate chips", 
         "price": "$10.99"
     },
     {
         "title": "Kinder",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/kinder.avif",
         "description": "2 Kinder bueno chocolate bars & 2 kinder sticks topped with a Nutella drizzle", 
         "price": "$13.99"
     },
     {
         "title": "Combo",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/combo.avif",
         "description": "Nutella served with two scoops of ice cream, 2 toppings of your choice with whipped cream, & powdered sugar", 
         "price": "$13.49"
     },
     {
         "title": "The Gold Crepe",
-        "image": "images/crepes/img.png",
+        "image": "images/crepes/gold.avif",
         "description": "24k gold served with Nutella, strawberries, bananas, 3 ferrero rocher & a scoop of ice cream", 
         "price": "$33.99"
     }

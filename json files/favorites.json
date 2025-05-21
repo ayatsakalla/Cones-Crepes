@@ -12,7 +12,7 @@
     {
         "title": "Nutella",
         "description": "Crepes & Waffles",
-        "image": "images/crepes/card3.jpg"
+        "image": "images/crepes/nutella.avif"
     },
     {
         "title": "Dubai Strawberry Cup",
@@ -22,12 +22,12 @@
     {
         "title": "Ferrero Rocher",
         "description": "Crepes & Waffles",
-        "image": "images/crepes/card4.jpg"
+        "image": "images/crepes/ferrero-rocher.avif"
     },
     {
         "title": "Nutella & Banana",
         "description": "Crepes",
-        "image": "images/crepes/card4.jpg"
+        "image": "images/crepes/nutella-banana.avif"
     },
     {
         "title": "Strawberry Stick",
@@ -37,12 +37,12 @@
     {
         "title": "Dubai Crepe",
         "description": "Crepes & Waffles",
-        "image": "images/crepes/card4.jpg"
+        "image": "images/crepes/dubai.avif"
     },
     {
         "title": "Lotus",
         "description": "Crepes & Waffles",
-        "image": "images/crepes/card4.jpg"
+        "image": "images/crepes/lotus.avif"
     },
     {
         "title": "Ferrero Shake",
@@ -52,6 +52,6 @@
     {
         "title": "Combo",
         "description": "Crepes & Waffles",
-        "image": "images/crepes/card4.jpg"
+        "image": "images/crepes/combo.avif"
     }
 ]

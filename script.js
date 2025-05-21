@@ -1,4 +1,5 @@
-let currentIndex = 3; // Start after prepended clones
+const increment = 3;
+let currentIndex = increment; // Start after prepended clones
 let totalCards = 0;
 const visibleCards = 3;
 
@@ -43,18 +44,16 @@ function jumpTo(index) {
 
 $('#carousel-right').on('click', function () {
     currentIndex++;
-    updatePosition();
-
-    if (currentIndex === totalCards + visibleCards) {
+    if (currentIndex >= totalCards + visibleCards) {
         setTimeout(() => jumpTo(visibleCards), 510);
     }
+    updatePosition();
 });
 
 $('#carousel-left').on('click', function () {
     currentIndex--;
-    updatePosition();
-
-    if (currentIndex === 0) {
+    if (currentIndex <= 0) {
         setTimeout(() => jumpTo(totalCards), 510);
     }
+    updatePosition();
 });

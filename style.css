@@ -352,6 +352,6 @@ html, .container-fluid {
 
 /* ice cream start */
 .carousel-card.ice-cream {
-    min-width: calc(100% / 3);
+    min-width: calc(100% / 5);
 }
 /* ice cream end */

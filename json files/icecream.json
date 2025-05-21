@@ -78,9 +78,5 @@
     {
         "flavor": "Moose Tracks",
         "image": "images/icecream/moosetrack.png"
-    },
-    {
-        "flavor": "Lemon Sorbet",
-        "image": "images/icecream/lemonsorbet.png"
     }
 ]

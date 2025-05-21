@@ -167,7 +167,7 @@ $(document).ready(function () {
 
 
 
-    const increment = 3;
+    const increment = 5;
     let currentIndex = increment; // Start after prepended clones
     let totalCards = 0;
     const visibleCards = increment;
@@ -176,7 +176,6 @@ $(document).ready(function () {
         const track = $('#carousel-track');
         const items = [...data]; // Copy to preserve original
         totalCards = items.length;
-        console.log(totalCards)
         // Clone last N and first N for looping
         const prepend = items.slice(-visibleCards);
         const append = items.slice(0, visibleCards);
@@ -215,7 +214,6 @@ $(document).ready(function () {
         if (currentIndex >= totalCards + visibleCards) {
             setTimeout(() => jumpTo(visibleCards), 510);
         }
-        console.log(currentIndex);
         updatePosition();
 
     });
@@ -225,7 +223,6 @@ $(document).ready(function () {
         if (currentIndex <= 0) {
             setTimeout(() => jumpTo(totalCards), 510);
         }
-        console.log(currentIndex);
         updatePosition();
 
     });

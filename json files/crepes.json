@@ -38,7 +38,7 @@
     {
         "title": "Oreo",
         "image": "images/crepes/img.png",
-        "description": "Nutella drizzle with crushed oreo pieces", 
+        "description": "Nutella served with crushed oreos & powdered sugar", 
         "price": "$9.49"
     },
     {
@@ -60,7 +60,7 @@
         "price": "$13.99"
     },
     {
-        "title": "Smore's",
+        "title": "S'mores",
         "image": "images/crepes/img.png",
         "description": "Nutella served with graham crackers, mini marshmallows, & chocolate chips", 
         "price": "$10.99"

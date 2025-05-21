@@ -1,22 +1,22 @@
 [
     {
         "title": "Waffle Stick",
-        "image": "images/chocolatedips/img.png",
+        "image": "images/chocolatedips/waffle.avif",
         "price": "$6.99"
     },
     {
         "title": "Banana Stick",
-        "image": "images/chocolatedips/img.png",
+        "image": "images/chocolatedips/banana.avif",
         "price": "$4.99"
     },
     {
         "title": "Strawberry Stick",
-        "image": "images/chocolatedips/img.png",
+        "image": "images/chocolatedips/strawberry.avif",
         "price": "$6.99"
     },
     {
         "title": "Marshmallow Stick",
-        "image": "images/chocolatedips/img.png",
+        "image": "images/chocolatedips/marshmallow.avif",
         "price": "$4.99"
     }
 ]

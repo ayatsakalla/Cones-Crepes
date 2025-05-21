@@ -54,6 +54,12 @@
         "price": "$5.99"
     },
     {
+        "title": "Iced Matcha Latte",
+        "image": "images/specials/matcha.avif",
+        "description": "Creamy matcha blended with milk and poured over ice for a cool, earthy refreshment",
+        "price": "$7.99"
+    },
+    {
         "title": "Latte",
         "image": "images/specials/img.png",
         "description": "Caramel or Vanilla flavor",

@@ -58,6 +58,8 @@ $('#carousel-left').on('click', function () {
     updatePosition();
 });
 
+
+// getting rid of that horrible a tag in the instagram widget holy guac
 $(window).on('load', function () {
     $('.elfsight-app-424744fd-e393-4d6e-a80a-7c0860072f8f').find('a').last().attr('style', 'display: none !important');
 });

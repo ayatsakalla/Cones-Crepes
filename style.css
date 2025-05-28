@@ -281,8 +281,9 @@ html, .container-fluid {
     background-color: #000;
 }
 
-footer {
-    font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+footer .guarantee {
+    font-size: clamp(0.75rem, 1.2vw, 1rem);
+    line-height: 1.4;
 }
 
 .foot-btn {
@@ -295,26 +296,52 @@ footer {
 }
 
 .social-btn {
-    width: 40px;
-    height: 40px;
     background-color: black;
     border: 2px solid #F84AA0;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
+    padding: 6px;
     transition: background-color 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-btn img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 
 .social-btn:hover {
     background-color: #F84AA0;
 }
 
+.social-link {
+    display: inline-block;
+}
+
+
 .social-btn img {
     width: 90%;
     /* Adjust as needed */
     height: auto;
+}
+
+.fo {
+    color: #F84AA0;
+}
+
+.fo:hover {
+    color: white;
+}
+
+/* Default footy styles */
+.footy {
+    font-size: 1.5vw !important;
+    font-family: 'guarantee';
+    /* or whatever your default size is */
 }
 /* footer end */
 

@@ -240,10 +240,12 @@ html, .container-fluid {
 /* menu hero start */
 .menu-img {
     width: 100%;
-    height: auto;
-    /* let it scale naturally */
+    height: 55vh;
+    /* or try 70% of parent if using % */
+    object-fit: cover;
+    object-position: center;
+    /* optional: keeps center focus */
 }
-
 .menu-text {
     position: absolute;
     top: 50%;
@@ -279,6 +281,10 @@ html, .container-fluid {
     background-color: #000;
 }
 
+footer {
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+}
+
 .foot-btn {
     color: white;
     text-decoration: none;
@@ -286,6 +292,29 @@ html, .container-fluid {
 
 .foot-btn:hover {
     color: #F84AA0;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: 2px solid #F84AA0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #F84AA0;
+}
+
+.social-btn img {
+    width: 90%;
+    /* Adjust as needed */
+    height: auto;
 }
 /* footer end */
 
@@ -353,5 +382,31 @@ html, .container-fluid {
 /* ice cream start */
 .carousel-card.ice-cream {
     min-width: calc(100% / 5);
+    padding: 0 10px;
+    display: flex;
+}
+
+.carousel-card.ice-cream .card-content {
+    background-color: #171717;
+    color: white;
+    border: 2px solid #F84AA0;
+    border-radius: 16px;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+.icecream-title {
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    margin-bottom: 0.4rem;
+}
+
+.carousel-card.ice-cream img {
+    max-height: 130px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0;
+    /* no extra margin */
 }
 /* ice cream end */

@@ -185,7 +185,7 @@ $(document).ready(function () {
             const card = `
             <div class="carousel-card ice-cream">
                 <div class="card-content">
-                    <h4 class="granny">${item.flavor}</h4>
+                    <h4 class="granny icecream-title">${item.flavor}</h4>
                     <img src="${item.image}" class="img-fluid rounded mb-2" alt="${item.flavor}">
                 </div>
             </div>

@@ -143,7 +143,6 @@ $(document).ready(function () {
             <div class="col-6 col-md-3 mb-4 ">
                 <div class="p-3 rounded h-100 d-flex flex-column justify-content-between text-white menu-div">
                         <h5 class="fw-bold text-center granny">${item.title}</h5>
-                        <img src="${item.image}" class="img-fluid rounded text-center text-white" alt="${item.title}">
                         <p class="mb-2 text-center guarantee">${item.description}</p>
                         
                     </div>

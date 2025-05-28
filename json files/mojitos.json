@@ -1,67 +1,54 @@
 [
     {
         "title": "The Breeze",
-        "image": "images/mojitos/img.png",
         "description": "Blue curacao raspberry"
     },
     {
         "title": "Lavender Love",
-        "image": "images/mojitos/img.png",
         "description": "Lavender & vanilla"
     },
     {
         "title": "Berry Power",
-        "image": "images/mojitos/img.png",
         "description": "Strawberry & blueberry"
     },
     {
         "title": "Summer Night",
-        "image": "images/mojitos/img.png",
         "description": "Watermelon & mint leaves"
     },
     {
         "title": "Lady In Red",
-        "image": "images/mojitos/img.png",
         "description": "Cherry"
     },
     {
         "title": "Sunrise",
-        "image": "images/mojitos/img.png",
         "description": "Orange & Peach"
     },
     {
         "title": "Bloom",
-        "image": "images/mojitos/img.png",
         "description": "Lavender & lemon"
     },
     {
         "title": "Lemon Spritz",
-        "image": "images/mojitos/img.png",
         "description": "Lemon & mint leaves"
     },
     {
         "title": "Holy Coconut",
-        "image": "images/mojitos/img.png",
         "description": "Coconut"
     },
     {
         "title": "Perfect Pineapple",
-        "image": "images/mojitos/img.png",
         "description": "Pineapple & mint leaves"
     },
     {
         "title": "Perfect Pineapple",
-        "image": "images/mojitos/img.png",
         "description": "Pineapple & mint leaves"
     },
     {
         "title": "Jersey Garden",
-        "image": "images/mojitos/img.png",
         "description": "Kiwi & lemon"
     },
     {
         "title": "Jersey Garden",
-        "image": "images/mojitos/img.png",
-        "description": "Pomegranet & peach"
+        "description": "Pomegranate & peach"
     }
 ]

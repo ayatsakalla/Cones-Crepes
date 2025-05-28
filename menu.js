@@ -197,7 +197,10 @@ $(document).ready(function () {
         $('#carousel-track').css('transform', `translateX(-${currentIndex * (100 / visibleCards)}%)`);
     });
 
+    let isTransitioning = false;
+
     function updatePosition() {
+        isTransitioning = true;
         $('#carousel-track').css('transition', 'transform 0.5s ease');
         $('#carousel-track').css('transform', `translateX(-${currentIndex * (100 / visibleCards)}%)`);
     }
@@ -208,22 +211,26 @@ $(document).ready(function () {
         currentIndex = index;
     }
 
-    $('#carousel-right').on('click', function () {
-        currentIndex += increment;
+    // Add listener once
+    $('#carousel-track').on('transitionend', function () {
         if (currentIndex >= totalCards + visibleCards) {
-            setTimeout(() => jumpTo(visibleCards), 510);
+            jumpTo(visibleCards);
+        } else if (currentIndex <= 0) {
+            jumpTo(totalCards);
         }
-        updatePosition();
+        isTransitioning = false;
+    });
 
+    $('#carousel-right').on('click', function () {
+        if (isTransitioning) return; // Prevent spamming during animation
+        currentIndex += 5;
+        updatePosition();
     });
 
     $('#carousel-left').on('click', function () {
-        currentIndex -= increment;
-        if (currentIndex <= 0) {
-            setTimeout(() => jumpTo(totalCards), 510);
-        }
+        if (isTransitioning) return;
+        currentIndex -= 5;
         updatePosition();
-
     });
 
 

@@ -31,7 +31,10 @@ $.getJSON('json files/favorites.json', function (data) {
     $('#carousel-track').css('transform', `translateX(-${currentIndex * (100 / visibleCards)}%)`);
 });
 
+let isTransitioning = false;
+
 function updatePosition() {
+    isTransitioning = true;
     $('#carousel-track').css('transition', 'transform 0.5s ease');
     $('#carousel-track').css('transform', `translateX(-${currentIndex * (100 / visibleCards)}%)`);
 }
@@ -42,21 +45,28 @@ function jumpTo(index) {
     currentIndex = index;
 }
 
-$('#carousel-right').on('click', function () {
-    currentIndex++;
+// Add listener once
+$('#carousel-track').on('transitionend', function () {
     if (currentIndex >= totalCards + visibleCards) {
-        setTimeout(() => jumpTo(visibleCards), 510);
+        jumpTo(visibleCards);
+    } else if (currentIndex <= 0) {
+        jumpTo(totalCards);
     }
+    isTransitioning = false;
+});
+
+$('#carousel-right').on('click', function () {
+    if (isTransitioning) return; // Prevent spamming during animation
+    currentIndex++;
     updatePosition();
 });
 
 $('#carousel-left').on('click', function () {
+    if (isTransitioning) return;
     currentIndex--;
-    if (currentIndex <= 0) {
-        setTimeout(() => jumpTo(totalCards), 510);
-    }
     updatePosition();
 });
+
 
 
 // getting rid of that horrible a tag in the instagram widget holy guac

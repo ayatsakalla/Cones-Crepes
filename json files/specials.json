@@ -3,7 +3,7 @@
         "title": "Cones & Crepes Family Special",
         "image": "images/specials/family-special.avif",
         "description": "1 Nutella crepe & 1 Nutella waffle with 2 flipped ice cream cones, 2 toppings, whipped cream, & powdered sugar",
-        "price": "$19.99"
+        "price": "$20.99"
     },
     {
         "title": "Sundae",
@@ -15,12 +15,6 @@
         "title": "Banana Split",
         "image": "images/specials/banana-split.avif",
         "description": "Split banana with 3 scoops of ice cream, sprinkles, whipped cream, & a cherry on top",
-        "price": "$6.99"
-    },
-    {
-        "title": "Jersey Worthy",
-        "image": "images/specials/jersey-worthy.avif",
-        "description": "Sugar cone with 2 scoops of ice cream, dipped in warm chocolate, with 3 toppings of your choice",
         "price": "$6.99"
     },
     {

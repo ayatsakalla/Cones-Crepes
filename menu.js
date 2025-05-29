@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+
+
     $('.menu-selection').hide();
 
     $('.menu-nav-btn').on('click', function () {

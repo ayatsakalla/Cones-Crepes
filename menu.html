@@ -70,60 +70,78 @@
         <!-- menu bts start -->
         <div class="row d-flex justify-content-center text-center g-3 mt-3 p-3">
 
-            <!-- crepes and waffles start btn -->
+            <!-- crepes and waffles btn start-->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                <button class="menu-nav-btn" data-target="#crepeswaffles">
-                    <div class="d-flex justify-content-center">
-                        <img src="images/menu-icons/crepe.png" class="img-fluid me-1">
-                        <img src="images/menu-icons/waffle.png" class="img-fluid ms-1">
-                    </div>
-                    <h4 class="guarantee">Crepes & Waffles</h4>
-                </button>
+                <a href="#crepe-btn" style="text-decoration: none;">
+                    <button class="menu-nav-btn" data-target="#crepeswaffles">
+                        <div class="d-flex justify-content-center">
+                            <img src="images/menu-icons/crepe.png" class="img-fluid me-1">
+                            <img src="images/menu-icons/waffle.png" class="img-fluid ms-1">
+                        </div>
+                        <h4 class="guarantee">Crepes & Waffles</h4>
+                    </button>
+                </a>
+
             </div>
             <!-- crepes and waffles btn end -->
 
             <!-- chocolate dips btn start -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                <button class="menu-nav-btn" data-target="#chocolatedips">
-                    <img src="images/menu-icons/chocolate-bar.png" class="img-fluid">
-                    <h4 class="guarantee">Chocolate Dips</h4>
-                </button>
+                <a href="#choco-btn" style="text-decoration: none;">
+                    <button class="menu-nav-btn" data-target="#chocolatedips">
+                        <img src="images/menu-icons/chocolate-bar.png" class="img-fluid">
+                        <h4 class="guarantee">Chocolate Dips</h4>
+                    </button>
+                </a>
+
             </div>
             <!-- chocolate dips btn end -->
 
             <!-- milkshakes btn start -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                <button class="menu-nav-btn" data-target="#milkshakes">
-                    <img src="images/menu-icons/milkshake.png" class="img-fluid">
-                    <h4 class="guarantee">Milkshakes</h4>
-                </button>
+                <a href="#milkshake-btn" style="text-decoration: none;">
+                    <button class="menu-nav-btn" data-target="#milkshakes">
+                        <img src="images/menu-icons/milkshake.png" class="img-fluid">
+                        <h4 class="guarantee">Milkshakes</h4>
+                    </button>
+                </a>
+
             </div>
             <!-- milkshakes btn end -->
 
             <!-- ice cream btn start -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                <button class="menu-nav-btn" data-target="#icecream">
-                    <img src="images/menu-icons/ice-cream.png" class="img-fluid">
-                    <h4 class="guarantee">Ice Cream</h4>
-                </button>
+                <a href="#icecream-btn" style="text-decoration: none;">
+                    <button class="menu-nav-btn" data-target="#icecream">
+                        <img src="images/menu-icons/ice-cream.png" class="img-fluid">
+                        <h4 class="guarantee">Ice Cream</h4>
+                    </button>
+                </a>
+
             </div>
             <!-- ice cream btn end -->
 
             <!-- specials btn start -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                <button class="menu-nav-btn" data-target="#specials">
-                    <img src="images/menu-icons/specials.png" class="img-fluid">
-                    <h4 class="guarantee">Specials</h4>
-                </button>
+                <a href="#specials-btn" style="text-decoration: none;">
+                    <button class="menu-nav-btn" data-target="#specials">
+                        <img src="images/menu-icons/specials.png" class="img-fluid">
+                        <h4 class="guarantee">Specials</h4>
+                    </button>
+                </a>
+
             </div>
             <!-- specials btn end -->
 
             <!-- mojitos btn start -->
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                <button class="menu-nav-btn" data-target="#mojitos">
-                    <img src="images/menu-icons/mojito.png" class="img-fluid">
-                    <h4 class="guarantee">Mojitos</h4>
-                </button>
+                <a href="#mojitos-btn" style="text-decoration: none;">
+                    <button class="menu-nav-btn" data-target="#mojitos">
+                        <img src="images/menu-icons/mojito.png" class="img-fluid">
+                        <h4 class="guarantee">Mojitos</h4>
+                    </button>
+                </a>
+
             </div>
             <!-- mojitos btn end -->
 
@@ -133,7 +151,7 @@
         <!-- crepes and waffles start -->
         <div id="crepeswaffles" class="menu-selection">
             <!-- title  -->
-            <h1 class="text-center text-white granny">Crepes and Waffles</h1>
+            <h1 class="text-center text-white granny" id="crepe-btn">Crepes and Waffles</h1>
 
             <!-- subtitle  -->
             <h5 class="text-center text-white guarantee">Choose from our menu or create your own Crepe or Waffle!</h5>
@@ -150,7 +168,7 @@
 
         <!-- chocolate dips start -->
         <div id="chocolatedips" class="menu-selection">
-            <h1 class="text-center text-white granny">Chocolate Dips</h1>
+            <h1 class="text-center text-white granny" id="choco-btn">Chocolate Dips</h1>
             <h5 class="text-center text-white guarantee">Enjoy your choice of fruit or other treats drenched underneath
                 a cascading fountain of molten milk chocolate</h5>
             <div class="container">
@@ -163,7 +181,7 @@
 
         <!-- milkshakes start -->
         <div id="milkshakes" class="menu-selection">
-            <h1 class="text-center text-white granny">Milkshakes</h1>
+            <h1 class="text-center text-white granny" id="milkshake-btn">Milkshakes</h1>
             <h5 class="text-center text-white guarantee">Topped with whipped cream</h5>
             <div class="container">
                 <div class="row" id="milkshakes-items">
@@ -175,7 +193,7 @@
 
         <!-- ice cream start -->
         <div id="icecream" class="menu-selection">
-            <h1 class="text-center text-white granny">Ice Cream</h1>
+            <h1 class="text-center text-white granny" id="icecream-btn">Ice Cream</h1>
 
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-4 menu-div m-3 py-3">
@@ -243,7 +261,7 @@
 
             </div>
 
-            <!-- carousel top favorites start -->
+            <!-- carousel flavors start -->
             <div class="container my-4">
                 <h3 class="granny text-center text-white mb-2">Flavors</h3>
                 <div class="row justify-content-center">
@@ -265,7 +283,7 @@
 
         <!-- specials start -->
         <div id="specials" class="menu-selection">
-            <h1 class="text-center text-white granny">Specials</h1>
+            <h1 class="text-center text-white granny" id="specials-btn">Specials</h1>
             <h5 class="text-center text-white guarantee">Choose Red Bull or Sprite - $6.49</h5>
             <div class="container">
                 <div class="row" id="specials-items">
@@ -277,7 +295,7 @@
 
         <!-- mojitos start -->
         <div id="mojitos" class="menu-selection">
-            <h1 class="text-center text-white granny">Mojitos</h1>
+            <h1 class="text-center text-white granny" id="mojitos-btn">Mojitos</h1>
             <h5 class="text-center text-white guarantee">Choose Red Bull or Sprite - $6.49</h5>
             <div class="container">
                 <div class="row" id="mojitos-items">

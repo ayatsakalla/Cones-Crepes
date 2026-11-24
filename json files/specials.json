@@ -30,6 +30,24 @@
         "price": "$8.99"
     },
     {
+        "title": "Chocolate Cake",
+        "image": "images/specials/choco-cake.avif",
+        "description": "Homemade chocolate slice… rich & moist!",
+        "price": "$6.99"
+    },
+    {
+        "title": "Chocolate Fudge Brownie",
+        "image": "images/specials/choco-fudge-brownie.avif",
+        "description": "Homemade chocolate fudge brownie , topped with milk chocolate, A scoop of vanilla ice cream & powdered sugar",
+        "price": "$6.99"
+    },
+    {
+        "title": "Dubai Chocolate Brownie",
+        "image": "images/specials/dubai-brownie.avif",
+        "description": "Our famous chocolate brownie loaded with Dubai chocolate, crispy knafeh, and milk chocolate",
+        "price": "$11.99"
+    },
+    {
         "title": "Dubai Chocolate Bar",
         "image": "images/specials/dubai-choco-bar.avif",
         "description": "Milk chocolate bar stuffed with crunchy phyllo dough & pistachio butter",

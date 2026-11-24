@@ -76,5 +76,11 @@
         "image": "images/milkshakes/fruitypebbles.avif",
         "description": "Fruity pebbles cereal & vanilla ice cream with strawberry drizzle",
         "price": "$8.99"
+    }, 
+    {
+        "title": "Dubai Milkshake",
+        "image": "images/milkshakes/dubai-milkshake.avif",
+        "description": "Dubai filling & vanilla ice cream with pistachio cream & milk chocolate, topped with whipped cream and kunafa",
+        "price": "$8.99"
     }
 ]

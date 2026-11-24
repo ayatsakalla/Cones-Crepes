@@ -78,5 +78,18 @@
     {
         "flavor": "Moose Tracks",
         "image": "images/icecream/moosetrack.png"
+    },
+      {
+        "flavor": "Pumpkin",
+        "image": "images/icecream/pumpkin.png"
+    },
+    
+    {
+        "flavor": "Cherry",
+        "image": "images/icecream/cherry.png"
+    },
+    {
+        "flavor": "Lemon Sorbet",
+        "image": "images/icecream/lemon-sorbet.png"
     }
 ]

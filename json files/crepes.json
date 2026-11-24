@@ -42,6 +42,12 @@
         "price": "$9.49"
     },
     {
+        "title": "Fruity Pebbles",
+        "image": "images/crepes/fruity-peb.avif",
+        "description": "Strawberries, fruity pebbles, fruity nutella & white chocolate drizzle",
+        "price": "$10.49"
+    },
+    {
         "title": "Reese's",
         "image": "images/crepes/reeses.avif",
         "description": "Nutella chocolate served with Reeses pieces, & powdered sugar", 

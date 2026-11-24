@@ -48,6 +48,35 @@ $(document).ready(function () {
         }
     });
 
+    $.getJSON('json files/luxuryfruits.json', function (data) {
+        const container = $('#fruits-items');
+        container.empty();
+
+        data.forEach(item => {
+            const itemHTML = `
+            <div class="col-12 col-md-6 mb-4 fruit-col">
+                <div class="d-flex menu-div h-100 overflow-hidden">
+                    <div class="p-3 col-8 d-flex flex-column justify-content-center">
+                        <h5 class="fw-bold text-white granny">${item.title}</h5>
+                        <p class="mb-2 text-white guarantee">${item.description}</p>
+                        <span class="text-white guarantee">${item.price}</span>
+                    </div>
+                    <div class="col-4 d-flex align-items-center">
+                        <img src="${item.image}" class="img-fluid w-100 h-100 object-fit-cover" alt="${item.title}">
+                    </div>
+                </div>
+            </div>
+        `;
+            container.append(itemHTML);
+        });
+
+        // Center the last item if total is odd
+        const total = container.children('.fruit-col').length;
+        if (total % 2 !== 0) {
+            container.children('.fruit-col').last().addClass('offset-md-3');
+        }
+    });
+
     $.getJSON('json files/chocolatedips.json', function (data) {
         const container = $('#chocolatedips-items');
         container.empty();

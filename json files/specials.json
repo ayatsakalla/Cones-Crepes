@@ -12,6 +12,12 @@
         "price": "$5.99"
     },
     {
+        "title": "Dubai Sundae",
+        "image": "images/specials/dubai-sundae.avif",
+        "description": "Vanilla soft serve ice cream/w pistachio cream & milk chocolate, topped with Kunafa",
+        "price": "$10.99"
+    },
+    {
         "title": "Banana Split",
         "image": "images/specials/banana-split.avif",
         "description": "Split banana with 3 scoops of ice cream, sprinkles, whipped cream, & a cherry on top",
@@ -27,13 +33,13 @@
         "title": "Dubai Chocolate Bar",
         "image": "images/specials/dubai-choco-bar.avif",
         "description": "Milk chocolate bar stuffed with crunchy phyllo dough & pistachio butter",
-        "price": "$8.00/2 for $15.00"
+        "price": "$7 for 1, $19 for 3"
     },
     {
         "title": "Dubai Strawberry Chocolate Cup",
         "image": "images/specials/dubai-strawberry-choco-cup.avif",
         "description": "Fresh strawberries with milk chocolate, crunchy phyllo dough, & pistachio butter",
-        "price": "$14.99"
+        "price": "$13.99"
     },
     {
         "title": "Strawberry Chocolate Cup",
@@ -51,7 +57,7 @@
         "title": "Iced Matcha Latte",
         "image": "images/specials/matcha.avif",
         "description": "Creamy matcha blended with milk and poured over ice for a cool, earthy refreshment",
-        "price": "$7.99"
+        "price": "$6.99"
     },
     {
         "title": "Mini Nutella Jar",
@@ -62,19 +68,25 @@
     {
         "title": "Latte",
         "image": "images/specials/latte.jpg",
-        "description": "Caramel or Vanilla flavor",
-        "price": "$4.75"
+        "description": "Iced or Hot - +0.89 Add Flavor",
+        "price": "$4.99"
     },
     {
-        "title": "Coffee",
+        "title": "Cappuccino",
+        "image": "images/specials/cappuccino.jpg",
+        "description": "A classic espresso drink balanced with steamed milk and a thick, airy layer of milk foam for a rich coffee flavor",
+        "price": "$4.99"
+    },
+    {
+        "title": "French Coffee",
         "image": "images/specials/coffee.jpg",
         "description": "Brewed to perfection, our signature roast delivers bold flavor and warmth in every cup",
-        "price": "$1.99"
+        "price": "$2.99"
     },
     {
         "title": "Tea",
         "image": "images/specials/tea.jpg",
         "description": "A soothing blend of premium black tea leaves, steeped to perfection",
-        "price": "$1.99"
+        "price": "$2.49"
     }
 ]

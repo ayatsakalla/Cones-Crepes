@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Mango",
+    "image": "images/luxuryfruits/mango.avif",
+    "description": "Tropical mango mousse cake with a delicate chocolate shell",
+    "price": "$11.99"
+  },
+  {
+    "title": "Strawberry",
+    "image": "images/luxuryfruits/strawberry.png",
+    "description": "Creamy strawberry mousse cake with a sweet berry flavor",
+    "price": "$11.99"
+  },  
+  {
+    "title": "Peach",
+    "image": "images/luxuryfruits/peach.png",
+    "description": "Light peach mousse cake with a delicate fruity finish",
+    "price": "$11.99"
+  },
+  {
+    "title": "Coconut",
+    "image": "images/luxuryfruits/Coconut.png",
+    "description": "Creamy coconut mousse nestled in a coconut-shaped chocolate shell",
+    "price": "$11.99"
+  },
+  {
+    "title": "Orange",
+    "image": "images/luxuryfruits/orange.png",
+    "description": "Creamy orange mousse cake with a bright citrus flavor",
+    "price": "$11.99"
+  },
+  {
+    "title": "Pistachio",
+    "image": "images/luxuryfruits/pistachio.avif",
+    "description": "Rich pistachio mousse cake with a smooth, nutty finish",
+    "price": "$11.99"
+  },
+  {
+    "title": "Pumpkin",
+    "image": "images/luxuryfruits/pumpkin.avif",
+    "description": "Pumpkin-shaped mousse cake wrapped in a delicate chocolate shell",
+    "price": "$11.99"
+  }, 
+  {
+    "title": "Banana",
+    "image": "images/luxuryfruits/banana.png",
+    "description": "Smooth banana mousse cake wrapped in a delicate chocolate shell",
+    "price": "$11.99"
+  },
+  {
+    "title": "Lemon",
+    "image": "images/luxuryfruits/lemon.png",
+    "description": "Refreshing lemon mousse cake with a sweet, zesty finish",
+    "price": "$11.99"
+  },
+  {
+    "title": "Blueberry",
+    "image": "images/luxuryfruits/blueberry.png",
+    "description": "Smooth blueberry mousse cake with a rich berry flavor",
+    "price": "$11.99"
+  },
+  {
+    "title": "Raspberry",
+    "image": "images/luxuryfruits/raspberry.png",
+    "description": "Smooth blueberry mousse cake with a rich berry flavor",
+    "price": "$11.99"
+  },
+  {
+    "title": "Dubai",
+    "image": "images/luxuryfruits/dubai.png",
+    "description": "Chocolate and pistachio mousse cake in a chocolate-coated bubble cube",
+    "price": "$11.99"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Strawberry",
+    "image": "images/cheesecakes/strawberry-cheese.avif",
+    "description": "Creamy cheesecake with a buttery graham cracker crust.",
+    "price": "$7.99"
+  },
+  {
+    "title": "Kinder",
+    "image": "images/cheesecakes/kinder-cheese.avif",
+    "description": "Kinder cheesecake, featuring a creamy cheese filling on a graham cracker crust with chocolate elements inspired by Kinder chocolates",
+    "price": "$7.99"
+  },
+  {
+    "title": "Dubai",
+    "image": "images/cheesecakes/dubai-cheese.avif",
+    "description": "Layers of creamy cheesecake with a pistachio mousse middle and a chocolate ganache topping, garnished with chopped pistachios",
+    "price": "$7.99"
+  },
+  {
+    "title": "Oreo",
+    "image": "images/cheesecakes/oreo-cheese.avif",
+    "description": "Crumbly Oreo cheesecake topped with a whole Oreo cookie",
+    "price": "$7.99"
+  },
+  {
+    "title": "Lotus Biscoff",
+    "image": "images/cheesecakes/biscoff-cheese.avif",
+    "description": "Creamy cheesecake topped with a layer of Biscoff spread and garnished with a Biscoff cookie and crumbled Biscoff piece",
+    "price": "$7.99"
+  }
+]

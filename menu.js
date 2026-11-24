@@ -165,6 +165,43 @@ $(document).ready(function () {
         }
     });
 
+    $(function () {
+        $.getJSON('json files/cheesecakes.json', function (data) {
+            const container = $('#cheesecakes-items');
+            container.empty();
+
+            data.forEach(item => {
+                const itemHTML = `
+                <div class="col-12 col-md-6 mb-4 cheesecake-col">
+                    <div class="d-flex menu-div h-100 overflow-hidden">
+                        <div class="p-3 col-8 d-flex flex-column justify-content-center">
+                            <h5 class="fw-bold text-white granny">${item.title}</h5>
+                            <p class="mb-2 text-white guarantee">${item.description}</p>
+                            <span class="text-white guarantee">${item.price}</span>
+                        </div>
+
+                        <div class="col-4 d-flex align-items-center">
+                            <img
+                                src="${item.image}"
+                                class="img-fluid w-100 h-100 object-fit-cover"
+                                alt="${item.title}"
+                            >
+                        </div>
+                    </div>
+                </div>
+            `;
+
+                container.append(itemHTML);
+            });
+
+            if (data.length % 2 !== 0) {
+                container.children('.cheesecake-col').last().addClass('offset-md-3');
+            }
+        }).fail(function (error) {
+            console.error('Could not load cheesecakes:', error);
+        });
+    });
+
     $.getJSON('json files/mojitos.json', function (data) {
         const row = $('#mojitos-items');
         row.empty();

@@ -36,18 +36,6 @@
     "price": "$11.99"
   },
   {
-    "title": "Pumpkin",
-    "image": "images/luxuryfruits/pumpkin.avif",
-    "description": "Pumpkin-shaped mousse cake wrapped in a delicate chocolate shell",
-    "price": "$11.99"
-  }, 
-  {
-    "title": "Banana",
-    "image": "images/luxuryfruits/banana.png",
-    "description": "Smooth banana mousse cake wrapped in a delicate chocolate shell",
-    "price": "$11.99"
-  },
-  {
     "title": "Lemon",
     "image": "images/luxuryfruits/lemon.png",
     "description": "Refreshing lemon mousse cake with a sweet, zesty finish",
@@ -67,7 +55,7 @@
   },
   {
     "title": "Dubai",
-    "image": "images/luxuryfruits/dubai.png",
+    "image": "images/luxuryfruits/dubai.jpeg",
     "description": "Chocolate and pistachio mousse cake in a chocolate-coated bubble cube",
     "price": "$11.99"
   }

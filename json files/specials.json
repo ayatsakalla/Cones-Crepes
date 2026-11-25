@@ -33,13 +33,13 @@
         "title": "Chocolate Cake",
         "image": "images/specials/choco-cake.avif",
         "description": "Homemade chocolate slice… rich & moist!",
-        "price": "$6.99"
+        "price": "$7.49"
     },
     {
         "title": "Chocolate Fudge Brownie",
         "image": "images/specials/choco-fudge-brownie.avif",
         "description": "Homemade chocolate fudge brownie , topped with milk chocolate, A scoop of vanilla ice cream & powdered sugar",
-        "price": "$6.99"
+        "price": "$8.99"
     },
     {
         "title": "Dubai Chocolate Brownie",

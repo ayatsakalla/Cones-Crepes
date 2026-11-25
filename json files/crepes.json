@@ -75,13 +75,13 @@
         "title": "Kinder",
         "image": "images/crepes/kinder.avif",
         "description": "2 Kinder bueno chocolate bars & 2 kinder sticks topped with a Nutella drizzle", 
-        "price": "$13.99"
+        "price": "$10.99"
     },
     {
         "title": "Combo",
         "image": "images/crepes/combo.avif",
         "description": "Nutella served with two scoops of ice cream, 2 toppings of your choice with whipped cream, & powdered sugar", 
-        "price": "$13.49"
+        "price": "$13.99"
     },
     {
         "title": "The Gold Crepe",
